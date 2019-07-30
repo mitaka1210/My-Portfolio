@@ -1,0 +1,22 @@
+@import 'smoke.css';
+
+body{
+   margin: 0;
+   padding: 0;
+ 
+}
+
+.top-nav ul li{
+    float: right;
+    margin-right: 2em;
+    padding: .5em;
+    font-size: 1.9em;
+    word-spacing: 1em;
+    list-style: none;
+    
+    
+}
+
+a {
+    text-decoration: none;
+}
