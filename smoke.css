@@ -123,13 +123,18 @@ nav ul {
    
 }
 ul li a {
-    margin-right: 2em;
+    margin-right: 1.5em;
     letter-spacing: .2em;
     font-size: 1.5em;
     text-decoration-line: none;
     position: relative;
     color: #2980b9;
 }
+
+ul li .desc a {
+    margin-right: 0em;
+    color: #2980b9;
+} 
 nav ul li a::before,
 nav ul li a::after{
     content: '';
