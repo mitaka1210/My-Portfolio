@@ -1,0 +1,66 @@
+@import 'nav-bar.css';
+
+body {
+    margin: 0;
+    padding: 0;
+   
+    background: url("https://cdn.pixabay.com/photo/2019/08/26/01/13/pacific-4430530_960_720.jpg") no-repeat ;
+    background-size: cover;
+    
+}
+nav ul li {
+    color: #0652DD;
+   
+    margin-top: .5em;
+}
+nav ul li a {
+    color: #0652DD;
+}
+
+
+.my-name h1 {
+    
+    font-size: 2.5em;
+    margin-left: -14.5em;
+    margin-top: -8em;
+    color: #00d2d3;
+
+}
+.second-name h1{
+    font-size: 2.5em;
+    margin-left: -8.5em;
+    margin-top: -8em;
+    color: #10ac84;
+}
+.mail {
+    font-size: .5em;
+}
+.mail h2 {
+    
+    margin-left: -15.5em;
+    margin-top: -13.5em;
+    color: #ee5253;
+    letter-spacing: .1em;
+}
+
+
+.cv p {
+    display: inline-block;
+  
+    margin-top: 9em;
+
+    margin-left: 2em;
+
+    font-size: 1.5em;
+    word-wrap: break-word;
+    line-height: 1.6;
+    color: #ecf0f1;
+}
+.sm {
+    margin-top: 2em;
+    
+}
+
+.fab  {
+    color: #3498db;
+}
