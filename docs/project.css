@@ -2,6 +2,15 @@
     margin: 1em;
      
  }
+
+ .site-aside h2 {
+     color:red;
+     top: 1em;
+ }
+
+ .site-aside p {
+     color:white;
+ }
  .middle {
      position: absolute;
      /*top:31%;*/
