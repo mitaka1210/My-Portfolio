@@ -1,7 +1,10 @@
-.sm {
-    
+.social {
     text-align: center;
-    font-size: 3em;
-    margin: 2em;
-    letter-spacing: .2em;
+    padding-top: 2em;
+    letter-spacing: 1em;
+    font-size: 2em;
+}
+
+.fab {
+    color:blue;
 }

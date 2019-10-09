@@ -11,7 +11,7 @@ body {
 nav ul li {
     color: #0652DD;
    
-    margin-top: .5em;
+    margin-top: 1.5em;
 }
 nav ul li a {
     color: #0652DD;
@@ -21,24 +21,26 @@ nav ul li a {
 .my-name h1 {
     
     font-size: 2.5em;
-    margin-left: -14.5em;
-    margin-top: -8em;
+    margin-left: -10.5em;
+    margin-top: -7em;
     color: #00d2d3;
 
 }
+
 .second-name h1{
     font-size: 2.5em;
-    margin-left: -8.5em;
-    margin-top: -8em;
+    margin-left: -4.5em;
+    margin-top: -7em;
     color: #10ac84;
 }
+
 .mail {
     font-size: .5em;
 }
+
 .mail h2 {
-    
-    margin-left: -15.5em;
-    margin-top: -13.5em;
+    margin-left: -8.5em;
+    margin-top: -11.5em;
     color: #ee5253;
     letter-spacing: .1em;
 }
@@ -56,10 +58,10 @@ nav ul li a {
     line-height: 1.6;
     color: #ecf0f1;
 }
-.sm {
+/*.sm {
     margin-top: 2em;
     
-}
+}*/
 
 .fab  {
     color: #3498db;

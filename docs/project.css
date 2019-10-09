@@ -1,0 +1,245 @@
+.site-aside{
+    margin: 1em;
+     
+ }
+ .middle {
+     position: absolute;
+     /*top:31%;*/
+     left: 50%;
+     transform: translate(-50%,50%);
+ }
+ 
+ 
+ .card{
+     cursor: pointer;
+     width: 240px;
+     height: 380px;
+ }
+   
+  
+ .front,.back {
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+     backface-visibility: hidden;
+     position: absolute;
+     transition: transform .6s linear;
+ }
+   
+ .front img {
+     
+     height: 100%;
+ }
+   
+ .front {
+     
+     transform: perspective(600px) rotateY(0deg);
+ }
+ 
+ .back {
+     background: #f1f1f1;
+     transform: perspective(600px) rotateY(180deg);
+ }   
+ 
+ .back-content  {
+    color:#2c3e50;
+    text-align: center;
+    width: 100%;
+    left:6em;
+    top:2em;
+     
+ 
+     
+ }
+ 
+ .sm {
+    margin: 8px 0;
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+     
+ }
+ 
+ .sm a {
+     display: inline-flex;
+     width: 40px;
+     height: 40px;
+    justify-content: center;
+    align-items: center;
+    color:#2c3e50;
+     font-size: 18px;
+     transition: 0.4s;
+     border-radius: 50%;
+     text-decoration: none;
+ }
+ .sm a:hover{
+     background: #2c3e50;
+     color: white;
+ }
+ .card:hover > .front {
+     transform: perspective(600px) rotateY(-180deg);
+ 
+ }
+ .card:hover > .back {
+     transform: perspective(600px) rotateY(0deg);
+ 
+ }
+ /*Card 2 =======================================================================*/
+ .middle2 {
+     position: relative;
+     top:50%;
+     left: 20%;
+     transform: translate(-50%, 50%);
+ }
+ 
+ 
+ .card2{
+     cursor: pointer;
+     width: 240px;
+     height: 380px;
+ }
+   
+  
+ .front2,.back2 {
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+     backface-visibility: hidden;
+     position: absolute;
+     transition: transform .6s linear;
+ }
+   
+ .front2 img {
+     
+     height: 100%;
+ }
+   
+ .front2 {
+     
+     transform: perspective(600px) rotateY(0deg);
+ }
+ 
+ .back2 {
+     background: #f1f1f1;
+     transform: perspective(600px) rotateY(180deg);
+ }   
+ 
+ .back2-content2  {
+     color:#2c3e50;
+     text-align: center;
+     width: 100%;
+     left:6em;
+     top:2em;
+ 
+     
+ }
+ 
+ .sm2 {
+     margin: 10px 0;
+     
+ }
+ 
+ .sm2 a {
+     display: inline-flex;
+     width: 40px;
+     height: 40px;
+    justify-content: center;
+    align-items: center;
+    color:#2c3e50;
+     font-size: 18px;
+     transition: 0.4s;
+     border-radius: 50%;
+     text-decoration: none;
+ }
+ .sm2 a:hover{
+     background: #2c3e50;
+     color: white;
+ }
+ .card2:hover > .front2 {
+     transform: perspective(600px) rotateY(-180deg);
+ 
+ }
+ .card2:hover > .back2 {
+     transform: perspective(600px) rotateY(0deg);
+ 
+ }
+ 
+ /* //======================================// */
+ .middle3 {
+     position: relative;
+     top:50%;
+     left: 80%;
+     transform: translate(-50%,-50%);
+ }
+ 
+ 
+ .card3{
+     cursor: pointer;
+     width: 240px;
+     height: 380px;
+ }
+   
+  
+ .front3,.back3 {
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+     backface-visibility: hidden;
+     position: absolute;
+     transition: transform .6s linear;
+ }
+   
+ .front3 img {
+     
+     height: 100%;
+ }
+   
+ .front3 {
+     
+     transform: perspective(600px) rotateY(0deg);
+ }
+ 
+ .back3 {
+     background: #f1f1f1;
+     transform: perspective(600px) rotateY(180deg);
+ }   
+ 
+ .back3-content3  {
+     color:#2c3e50;
+     text-align: center;
+     width: 100%;
+     left:6em;
+ 
+     
+ }
+ 
+ .sm3 {
+     margin: 10px 0;
+     
+ }
+ 
+ .sm3 a {
+     display: inline-flex;
+     width: 40px;
+     height: 40px;
+    justify-content: center;
+    align-items: center;
+    color:#2c3e50;
+     font-size: 18px;
+     transition: 0.4s;
+     border-radius: 50%;
+     text-decoration: none;
+ }
+ .sm3 a:hover{
+     background: #2c3e50;
+     color: white;
+ }
+ .card3:hover > .front3 {
+     transform: perspective(600px) rotateY(-180deg);
+ 
+ }
+ .card3:hover > .back3 {
+     transform: perspective(600px) rotateY(0deg);
+ 
+ }
