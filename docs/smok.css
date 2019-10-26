@@ -1,4 +1,4 @@
-@import 'timeline.css';
+/* @import 'timeline.css';
 @import 'button.css';
 body{
     margin:0;
@@ -152,4 +152,4 @@ nav ul li a::after {
 nav ul li a:hover::before,
 nav ul li a:hover::after {
     transform: scale(1);
-}
+} */

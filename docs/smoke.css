@@ -98,7 +98,7 @@ h2 {
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 74.5%;
+    top: 82.5%;
     transform: translateY(-50%);
     width: 100%;
     text-align: center;
@@ -157,4 +157,45 @@ nav ul li a::after {
 nav ul li a:hover::before,
 nav ul li a:hover::after {
     transform: scale(1);
+}
+
+@media ( max-width: 600px ) {
+    body{
+        font-size: 1em;
+
+    }
+
+    h1 {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 2.5em;
+        transform: translateY(-50%);
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-size: 5em;
+        font-family: sans-serif;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 5.5em;
+        transform: translateY(-50%);
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-size: 3em;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        letter-spacing: .5em;
+        margin-left: .3em;
+    }
+
+    video {
+        top: 2em;
+    }
 }
