@@ -150,6 +150,10 @@ nav ul li a {
         font-size: 75.5%;
         line-height: 1.6em;
     }
+
+    header {
+        margin-right: 2em;
+    }
     .my-name h1 {
         position: relative;
         top: 3em;
@@ -174,7 +178,7 @@ nav ul li a {
         position: relative;
         font-size: 0.5em;
         top: 10em;
-        right: 5em;
+        right: 18em;
     }
 
     .cv p {

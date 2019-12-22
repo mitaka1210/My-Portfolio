@@ -14,7 +14,7 @@
  .middle {
      position: absolute;
      /*top:31%;*/
-     left: 7.5em;
+     left: 27.5em;
      transform: translate(-50%,50%);
  }
  
@@ -24,7 +24,14 @@
      width: 240px;
      height: 380px;
  }
-   
+   .front h4 {
+    
+        /* position: relative; */
+        text-align: center;
+        font-size: 1.2em;
+        color: palegreen;
+    
+   }
   
  .front,.back {
      width: 100%;
@@ -54,7 +61,7 @@
     color:#2c3e50;
     text-align: center;
     width: 100%;
-    left:6em;
+    left:8em;
     top:2em;
      
  
@@ -97,8 +104,8 @@
  /*Card 2 =======================================================================*/
  .middle2 {
      position: relative;
-     top:50%;
-     left: 20%;
+     top: 50%;
+     left: 50em;
      transform: translate(-50%, 50%);
  }
  
@@ -123,6 +130,13 @@
      
      height: 100%;
  }
+
+ .front2 h4 {
+    /* position: relative; */
+    text-align: center;
+    font-size: 1.2em;
+    color: palegreen;
+}
    
  .front2 {
      
@@ -138,7 +152,7 @@
      color:#2c3e50;
      text-align: center;
      width: 100%;
-     left:6em;
+     left:8em;
      top:2em;
  
      
@@ -203,6 +217,12 @@
      
      height: 100%;
  }
+ .front3 h4 {
+    /* position: relative; */
+    text-align: center;
+    font-size: 1.2em;
+    color: palegreen;
+}
    
  .front3 {
      
@@ -218,7 +238,7 @@
      color:#2c3e50;
      text-align: center;
      width: 100%;
-     left:6em;
+     left:8em;
  
      
  }
@@ -261,8 +281,8 @@
 
      .middle {
         position: absolute;
-        /*top:31%;*/
-        left: 50%;
+        /* top: 31%; */
+        left: 26.5em;
         transform: translate(-50%,50%);
     }
     
@@ -347,8 +367,8 @@
 
     .middle2 {
         position: relative;
-        top: 22em;
-        left: 7em;
+        top: 50%;
+        left: 53%;
         transform: translate(-50%, 50%);
     }
     
@@ -428,8 +448,8 @@
 
     .middle3 {
         position: relative;
-        top: 69em;
-        left: 4em;
+        top: 50%;
+        left: 80%;
         transform: translate(-50%,-50%);
     }
     
@@ -502,5 +522,70 @@
     .card3:hover > .back3 {
         transform: perspective(600px) rotateY(0deg);
     
+    }
+}
+
+ @media ( max-width: 375px) {
+     html {
+        height: 250%;
+     }
+    .middle {
+        position: absolute;
+        top: 0em;
+        left: 15.5em;
+        transform: translate(-50%,50%);
+    }
+
+    .middle2 {
+        position: relative;
+        top: 30em;
+        left: 14.5em;
+        transform: translate(-50%, 50%);
+    }
+
+    .middle3 {
+        position: relative;
+        top: 67em;
+        left: 15em;
+        transform: translate(-50%,-50%);
+    }
+
+
+    .back-content.middle {
+        position: relative;
+        right: 4em;
+        width: 31em;
+    }
+    .back-content.middle h6
+    {
+        display: flex;
+        justify-content: center;
+        margin-right: 6em;
+        font-size: 2em;
+    }
+
+    
+
+    .sm {
+        margin: 8px 0;
+        margin-top: 4em;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        margin-right: 13em;
+    }
+
+    .back2-content2.middle2 {
+
+        position: relative;
+        top: 2em;
+        font-size: 2em;
+        left: 5em;
+        width: 29em;
+    }
+
+    .privilegest {
+        position: fixed;
+    top: 42em;
     }
  }
