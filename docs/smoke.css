@@ -1,5 +1,7 @@
 @import 'timeline.css';
 @import 'button.css';
+@import 'responsive.css';
+
 body{
     margin:0;
     padding:0;
@@ -29,7 +31,7 @@ h1{
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 66%;
+    top: 64%;
     transform: translateY(-50%);
     width: 100%;
     text-align: center;
@@ -98,13 +100,14 @@ h2 {
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 82.5%;
+    top: 17.5em;
+    left: 19em;
     transform: translateY(-50%);
     width: 100%;
-    text-align: center;
+    
     color: #fff;
-    font-size: 3em;
-    font-family:sans-serif;
+    font-size: 2em;
+    font-family: sans-serif;
     text-transform: uppercase;
     letter-spacing: .5em;
     margin-left: .3em;
@@ -113,12 +116,12 @@ h2 {
 
 nav ul {
    
-    float: right;
     display: flex;
+    justify-content: flex-end;
     text-decoration: none;
-    
     list-style: none;
     margin: .5em;
+    padding-top: 1.5em;
    
    
 }
@@ -159,7 +162,7 @@ nav ul li a:hover::after {
     transform: scale(1);
 }
 
-@media ( max-width: 600px ) {
+@media ( min-width: 1920px ) {
     body{
         font-size: 1em;
 
@@ -169,7 +172,7 @@ nav ul li a:hover::after {
         margin: 0;
         padding: 0;
         position: absolute;
-        top: 2.5em;
+        top: 7.5em;
         transform: translateY(-50%);
         width: 100%;
         text-align: center;
@@ -183,7 +186,7 @@ nav ul li a:hover::after {
         margin: 0;
         padding: 0;
         position: absolute;
-        top: 5.5em;
+        top: 13.9em;
         transform: translateY(-50%);
         width: 100%;
         text-align: center;
@@ -192,10 +195,60 @@ nav ul li a:hover::after {
         font-family: sans-serif;
         text-transform: uppercase;
         letter-spacing: .5em;
-        margin-left: .3em;
+        left: .5em;
     }
 
     video {
         top: 2em;
     }
+
 }
+
+
+/* @media ( max-width: 320px) {
+    .container {
+        color: wheat;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    nav {
+        display: flex;
+        width: 18em;
+        height: 21em;
+        justify-content: center;
+        margin-left: 0em;
+        background-color: white;
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-decoration: none;
+        list-style: none;
+        margin: .5em;
+        padding-top: 1.5em;
+    }
+
+    .video h1 {
+        font-size: 2.3em;
+        position: absolute;
+        top: 10em;
+    } 
+     h2 {
+        position: absolute;
+        left: 1.5em;
+        font-size: 1.5em;
+        top: 18em;
+     }  
+
+     .social {
+        text-align: center;
+        padding-top: 2em;
+        letter-spacing: 1em;
+        font-size: 1em;
+        cursor: pointer;
+     }
+        
+    
+} */

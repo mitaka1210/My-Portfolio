@@ -22,7 +22,7 @@ section::before{
 }
 nav ul {
    
-    float: right;
+    /* float: right; */
     display: flex;
     text-decoration: none;
     
@@ -66,4 +66,10 @@ nav ul li a::after {
 nav ul li a:hover::before,
 nav ul li a:hover::after {
     transform: scale(1);
+}
+
+@media ( min-width: 320px) {
+    .container {
+        color: wheat;
+    }
 }
