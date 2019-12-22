@@ -525,7 +525,8 @@
     }
 }
 
- @media ( max-width: 375px) {
+
+@media ( max-width: 375px) {
      html {
         height: 250%;
      }
@@ -588,4 +589,4 @@
         position: fixed;
     top: 42em;
     }
- }
+}

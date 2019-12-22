@@ -15,7 +15,7 @@
 } */
 @media ( max-width: 375px)  {
     body {
-        width: 22.2em;
+        width: 31.2em;
         margin: 0;
         padding: 0;
         background: rgb(230,230,230);
@@ -60,10 +60,10 @@
         margin: 0;
         padding: 0;
         position: absolute;
-        top: 25%;
+        top: 30%;
         transform: translateY(-50%);
         width: 100%;
-        right: 1.4em;
+        /* right: 1.4em; */
         text-align: center;
         color: #fff;
         font-size: 3em;
@@ -75,12 +75,12 @@
         margin: 0;
         padding: 0;
         position: absolute;
-        top: 8.5em;
-        left: 1em;
+        top: 11.5em;
+        left: 6.3em;
         transform: translateY(-50%);
         width: 100%;
         color: #fff;
-        font-size: 2em;
+        font-size: 1.5em;
         font-family: sans-serif;
         text-transform: uppercase;
         letter-spacing: .5em;
