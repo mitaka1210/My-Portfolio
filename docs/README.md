@@ -13,7 +13,7 @@ Menu:
 
 ## Description
 
-Website for my person !! This is my first try work with HTML and CSS.
+Website for my personality !! This is my first try work with HTML and CSS.
 
 #### What Technologies  I used ?
 
@@ -35,9 +35,9 @@ Website for my person !! This is my first try work with HTML and CSS.
 ## Author Info
 
 - Facebook- [dimitar dimitrov](https://www.facebook.com/mitaka1210)
-- Twitter - [@dimitar1201][https://twitter.com/dimitar1201]
+- Twitter - [@dimitar1201](https://twitter.com/dimitar1201)
 - Website - [Dimitar Dimitrov](https://mitaka1210.github.io/My-Portfolio/)
-- GitHub - [mitaka1210][https://github.com/mitaka1210?tab=repositories]
+- GitHub - [mitaka1210](https://github.com/mitaka1210?tab=repositories)
 - E-mail - dimitard185@gmail.com / dimitar_dimitrov12@mail.bg
 
 [Back To The Top](#Read-Me)
