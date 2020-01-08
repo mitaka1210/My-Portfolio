@@ -13,7 +13,7 @@ Menu:
 
 ## Description
 
-Website for my person !! This is my first try work with HTML and CSS.
+Website for my personality !! This is my first try work with HTML and CSS.
 
 #### What Technologies  I used ?
 
