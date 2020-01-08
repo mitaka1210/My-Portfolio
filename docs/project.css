@@ -280,10 +280,23 @@
  
  } */
 
+ .site-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top: 9em;
+    font-size: 1.4em;
+ }
+
  .privilegest {
      position: relative;
      top: 20em;
  }
+
+
 
  @media ( max-width: 768px ) {
 
