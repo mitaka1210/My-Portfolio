@@ -25,7 +25,7 @@ nav ul li a {
     right: 9em;
     font-size: 2.5em;
     top: 3em;
-    right: 9em;
+    right: 11em;
     color: #00d2d3;
 
 }
@@ -36,13 +36,13 @@ nav ul li a {
     color: #10ac84;
     position: relative;
     top: 2.35em;
-    right: 3em;
+    right: 5em;
 }
 
 .mail {
     position: relative;
     font-size: 0.5em;
-    top: 10em;
+    top: 3em;
 }
 
 .mail h2 {
@@ -96,7 +96,7 @@ nav ul li a {
         right: 9em;
         font-size: 2.5em;
         top: 3em;
-        right: 2em;
+        right: 2.8em;
         color: #00d2d3;
     }
 
@@ -107,8 +107,16 @@ nav ul li a {
         color: #10ac84;
         position: relative;
         top: 2.35em;
-        right: -4em;
+        right: -3.5em;
     }
+
+    .mail h2 {
+        margin-left: -15.5em;
+        margin-top: -11.5em;
+        color: #ee5253;
+        letter-spacing: .1em;
+    }
+
 }
 @media ( max-width: 425px ){
     .my-name h1 {

@@ -216,7 +216,7 @@ body {
   .direction-l .flag:before,
   .direction-r .flag:before {
     position: absolute;
-    top: -30px;
+    top: -25px;
       left: 50%;
       content: ' ';
       display: block;
