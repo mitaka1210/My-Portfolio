@@ -49,8 +49,9 @@
    
  .front img {
      
-    height: 82%;
+    height: 26em;
     border: 2px solid #333;
+    width: 19em;
  }
    
  .front {
@@ -134,8 +135,9 @@
    
  .front2 img {
      
-     height: 82%;
+     height: 26em;
      border: 2px solid #333;
+     width: 19em;
  }
 
  .front2 h4 {
@@ -280,8 +282,11 @@
  
  } */
 
+ 
+
  .site-main {
     display: flex;
+   
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
@@ -353,18 +358,137 @@
         width: 43em;
         top: 25em;
     }
+    
+}
+@media  ( max-width: 500px ){
+    .site-main {
+        position: relative;
+        top: 17em;
+        left: 11em;
+        font-size: 1.3em;
+        padding-top: 1em;
+    }
+    .first {
+        padding-right: 15em;
+    }
+    
+    .second {
+        padding-top: 2em;
+    }
+}
+@media ( max-width: 375px) {
+        html {
+        height: 233%;
+        }
+    .middle {
+        position: absolute;
+        top: 0em;
+        left: 15.5em;
+        transform: translate(-50%,50%);
+    }
 
- }
+    .middle2 {
+        position: relative;
+        top: 30em;
+        left: 14.5em;
+        transform: translate(-50%, 50%);
+    }
+
+    .middle3 {
+        position: relative;
+        top: 67em;
+        left: 15em;
+        transform: translate(-50%,-50%);
+    }
+
+
+    .back-content.middle {
+        position: relative;
+        right: 4em;
+        width: 31em;
+    }
+    .back-content.middle h6
+    {
+        display: flex;
+        justify-content: center;
+        margin-right: 1em;
+        font-size: 2em;
+        width: 10em;
+    }
+
+    
+
+    .sm {
+        margin: 8px 0;
+        margin-top: -3em;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        margin-right: -8em;
+    }
+
+    .back2-content2.middle2 {
+
+        position: relative;
+        top: 2em;
+        font-size: 2em;
+        left: 5em;
+        width: 29em;
+    }
+    
+    .back2-content2 h6 {
+        width: 15em;
+        font-size: 1.5em;
+        position: relative;
+        bottom: 6em;
+        left: 2em;
+    }
+
+    .site-main {
+        position: relative;
+        top: 36em;
+        left: 9em;
+        font-size: 1.3em;
+        padding-top: 1em;
+    }
+
+    .privilegest {
+        text-align: center;
+        font-size: 1em;
+        text-transform: capitalize;
+        letter-spacing: .3em;
+        position: relative;
+        top: 26em;
+        display: flex;
+        justify-content: end;
+    }
+
+    .sm2 {
+        position: relative;
+        top: -9em;
+        left: 9.5em;
+    }
+    
+}
+
 
  @media ( max-width: 320px) {
+    html {
+        height: 27em;
+    }
+    .nav {
+        width: 27em;
+        display: flex;
+        height: 14em;
+    }
      .site-aside {
          display: flex;
      }
 
      .middle {
         position: absolute;
-        /* top: 31%; */
-        left: 26.5em;
+        top: 1em;
+        left: 14em;
         transform: translate(-50%,50%);
     }
     
@@ -406,18 +530,28 @@
        width: 100%;
        left:6em;
        top:2em;
-        
-    
-        
+    }
+
+    .back-content.middle h6 {
+        display: flex;
+        justify-content: center;
+        margin-right: 1em;
+        font-size: 2em;
+        width: 19em;
+        position: relative;
+            bottom: 4em;
     }
     
     .sm {
-       margin: 8px 0;
-       margin-top: 4em;
-       display: flex;
-       justify-content: center;
-       padding-left: 0;
-        
+        margin: 8px 0;
+        margin-top: 0em;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        width: 37em;
+        position: relative;
+        bottom: 9em;
+
     }
     
     .sm a {
@@ -449,8 +583,8 @@
 
     .middle2 {
         position: relative;
-        top: 50%;
-        left: 53%;
+        top: 23em;
+        left: 13em;
         transform: translate(-50%, 50%);
     }
     
@@ -494,6 +628,14 @@
         top:2em;
     
         
+    }
+
+    .back2-content2 h6 {
+        width: 15em;
+        font-size: 1.3em;
+        position: relative;
+        bottom: 6em;
+        left: 3.6em;
     }
     
     .sm2 {
@@ -605,70 +747,28 @@
         transform: perspective(600px) rotateY(0deg);
     
     }
-}
-
-
-@media ( max-width: 375px) {
-     html {
-        height: 250%;
-     }
-    .middle {
-        position: absolute;
-        top: 0em;
-        left: 15.5em;
-        transform: translate(-50%,50%);
-    }
-
-    .middle2 {
-        position: relative;
-        top: 30em;
-        left: 14.5em;
-        transform: translate(-50%, 50%);
-    }
-
-    .middle3 {
-        position: relative;
-        top: 67em;
-        left: 15em;
-        transform: translate(-50%,-50%);
-    }
-
-
-    .back-content.middle {
-        position: relative;
-        right: 4em;
-        width: 31em;
-    }
-    .back-content.middle h6
-    {
-        display: flex;
-        justify-content: center;
-        margin-right: 6em;
-        font-size: 2em;
-    }
-
-    
-
-    .sm {
-        margin: 8px 0;
-        margin-top: 4em;
-        display: flex;
-        justify-content: center;
-        padding-left: 0;
-        margin-right: 13em;
-    }
-
-    .back2-content2.middle2 {
-
-        position: relative;
-        top: 2em;
-        font-size: 2em;
-        left: 5em;
-        width: 29em;
-    }
 
     .privilegest {
-        position: fixed;
-    top: 42em;
+        position: relative;
+        left: 1em;
+        top: 20em;
+    }
+    .first {
+        padding-right: 15em;
+        font-size: 1em;
+        color: white;
+    }
+
+    a {
+        color: cornflowerblue;
+        font-size: 1.2em;
+    }
+    
+    .site-main {
+    position: relative;
+    top: 36em;
+    left: 7em;
+    font-size: 1.1em;
+    padding-top: 0em;
     }
 }

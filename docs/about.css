@@ -186,7 +186,7 @@ nav ul li a {
         position: relative;
         font-size: 0.5em;
         top: 10em;
-        right: 18em;
+        right: 4em;
     }
 
     .cv p {
@@ -208,39 +208,86 @@ nav ul li a {
     body {
         margin: 0;
         padding: 0;
-
-        background-color: cadetblue;
+        background-image: linear-gradient(to bottom, #370512, #722811, #956000, #8fa400, #12eb4b);
+      
+    }
+    .nav {
+        width: 27em;
+        display: flex;
     }
 
-    .my-name h1{
+    .nav ul {
+        display: flex;
+        justify-content: space-around;
+        /* text-decoration: none; */
+        /* list-style: none; */
+        /* padding-top: 1.5em; */
+        width: 34em;
+        flex-basis: 100%;
+        /* flex-direction: row; */
+        margin-right: -3em;
+        margin-left: 0em;
+        padding: 1em;
+    }
+
+    .nav ul li {
+        padding-right: 0em;
+    }
+
+
+    .my-name h1 {
         position: absolute;
-        top: 19em;
-        left: 13.5em;
+        top: 4em;
+        left: -2.99em;
         font-size: 2em;
     }
 
     .second-name h1 {
         position: absolute;
-        top: 20em;
-        left: 7.5em;
+        top: 4em;
+        left: 4.5em;
         font-size: 2em;
+        width: 10em;
     }
 
     .mail {
         font-size: .6em;
         position: absolute;
-        top: 42em;
-        left: 11em;
+        top: 12em;
+        left: -5em;
     }
     .cv {
         display: flex;
+        width: 26.1em;
     }
 
     .cv p {
-       display: flex;
-       flex-wrap: wrap;
-       margin-top: 9em;
-       /* height: 9em; */
-       margin-left: .4em;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 3em;
+        font-size: 1.5em;
+        /* height: 9em; */
+        margin-left: .4em;
+        background-image: linear-gradient(to bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    }
+
+    .social {
+        text-align: center;
+        padding-top: 1em;
+        letter-spacing: 1em;
+        font-size: 1.4em;
+        cursor: pointer;
+        position: relative;
+        left: 1em;
+        /* color: red; */
+    }
+    .fab {
+        color: red;
+        font-size: 1.1em;
+    }
+
+    .privilegest {
+        position: relative;
+        left: 1em;
     }
 }
